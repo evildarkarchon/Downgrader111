@@ -6,7 +6,7 @@ Downgrader111 is a cross-platform desktop application built using the **Avalonia
 ### Tech Stack
 - **Framework:** Avalonia UI
 - **Language:** C#
-- **Core Runtime:** .NET 8.0
+- **Core Runtime:** .NET 10.0
 - **Desktop Runtime:** .NET 10.0 (Windows specific target configured)
 - **MVVM Library:** ReactiveUI (included via Avalonia.ReactiveUI)
 
@@ -15,7 +15,7 @@ The solution is divided into two main projects:
 
 1.  **`Downgrader111` (Core)**
     -   Contains the shared application logic, ViewModels, Views, and Styles.
-    -   Target Framework: `net8.0`
+    -   Target Framework: `net10.0`
     -   Key Directories:
         -   `ViewModels/`: Contains the logic for the UI (e.g., `MainViewModel.cs`).
         -   `Views/`: Contains the UI definitions (AXAML files like `MainView.axaml`).
